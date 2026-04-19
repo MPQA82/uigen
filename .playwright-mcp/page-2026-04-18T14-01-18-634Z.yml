@@ -1,0 +1,101 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e15]:
+          - generic [ref=e52]:
+            - generic [ref=e55]: Create a user profile card with an avatar, name, bio, and social links (Twitter, GitHub, LinkedIn). Make it look modern and polished.
+            - img [ref=e58]
+          - generic [ref=e74]:
+            - img [ref=e77]
+            - generic [ref=e82]:
+              - generic [ref=e85]: str_replace_editor
+              - separator [ref=e86]
+              - generic [ref=e87]:
+                - paragraph [ref=e88]: "Done! I've created a modern user profile card with:"
+                - list [ref=e89]:
+                  - listitem [ref=e90]:
+                    - strong [ref=e91]: Avatar
+                    - text: "- Circular profile image with border and shadow"
+                  - listitem [ref=e92]:
+                    - strong [ref=e93]: Name & Title
+                    - text: "- Prominent display with color accent"
+                  - listitem [ref=e94]:
+                    - strong [ref=e95]: Bio
+                    - text: "- Descriptive text about the user"
+                  - listitem [ref=e96]:
+                    - strong [ref=e97]: Social Links
+                    - text: "- Twitter, GitHub, and LinkedIn icons with hover effects (color change and scale animation)"
+                  - listitem [ref=e98]:
+                    - strong [ref=e99]: CTA Button
+                    - text: "- \"View Profile\" button with gradient"
+                  - listitem [ref=e100]:
+                    - strong [ref=e101]: Design
+                    - text: "- Gradient header background, clean white card, dark background, smooth transitions and hover states"
+                - paragraph [ref=e102]: The card is fully responsive and uses Tailwind CSS for styling with lucide-react icons for the social links.
+          - generic [ref=e540]:
+            - generic [ref=e543]: Create a user profile card with avatar, name, bio, and social links for Twitter, GitHub, and LinkedIn.
+            - img [ref=e546]
+          - generic [ref=e579]:
+            - img [ref=e582]
+            - generic [ref=e587]:
+              - generic [ref=e590]: str_replace_editor
+              - separator [ref=e591]
+              - generic [ref=e594]: str_replace_editor
+              - separator [ref=e595]
+              - generic [ref=e596]:
+                - paragraph [ref=e597]: "Done! I've updated the profile card with:"
+                - list [ref=e598]:
+                  - listitem [ref=e599]:
+                    - strong [ref=e600]: Avatar
+                    - text: "- Circular profile image with border and shadow"
+                  - listitem [ref=e601]:
+                    - strong [ref=e602]: Name & Title
+                    - text: "- \"Sarah Chen\" with \"Full Stack Developer\" subtitle"
+                  - listitem [ref=e603]:
+                    - strong [ref=e604]: Bio
+                    - text: "- Descriptive text about the user"
+                  - listitem [ref=e605]:
+                    - strong [ref=e606]: Social Links
+                    - text: "- Twitter, GitHub, and LinkedIn with inline SVG icons and color-coded hover states"
+                  - listitem [ref=e607]:
+                    - strong [ref=e608]: CTA Button
+                    - text: "- \"View Full Profile\" button with gradient and hover effects"
+                  - listitem [ref=e609]:
+                    - strong [ref=e610]: Modern Design
+                    - text: "- Gradient header, clean white card, dark background, smooth transitions and scale animations on hover"
+        - generic [ref=e23]:
+          - textbox "Describe the React component you want to create..." [ref=e24]
+          - button [disabled] [ref=e25]:
+            - img [ref=e26]
+    - separator [ref=e29]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - tablist [ref=e34]:
+          - tab "Preview" [active] [selected] [ref=e35]
+          - tab "Code" [ref=e36]
+        - generic [ref=e37]:
+          - button "Sign In" [ref=e38]
+          - button "Sign Up" [ref=e39]
+      - iframe [ref=e988]:
+        - generic [ref=f3e7]:
+          - img "Sarah Chen" [ref=f3e9]
+          - heading "Sarah Chen" [level=2] [ref=f3e10]
+          - paragraph [ref=f3e11]: Full Stack Developer
+          - paragraph [ref=f3e12]: Building beautiful web experiences with React and Node.js. Open source enthusiast and tech speaker.
+          - generic [ref=f3e13]:
+            - link "Twitter" [ref=f3e14] [cursor=pointer]:
+              - /url: https://twitter.com
+              - img [ref=f3e15]
+            - link "GitHub" [ref=f3e17] [cursor=pointer]:
+              - /url: https://github.com
+              - img [ref=f3e18]
+            - link "LinkedIn" [ref=f3e20] [cursor=pointer]:
+              - /url: https://linkedin.com
+              - img [ref=f3e21]
+          - button "View Full Profile" [ref=f3e23] [cursor=pointer]
+  - alert [ref=e51]
+  - generic [ref=e539]:
+    - alert
+    - alert

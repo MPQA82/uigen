@@ -1,0 +1,32 @@
+[     996ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/7fc5f_next_dist_compiled_react-dom_37ffed11._.js:14537
+[  235462ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/7fc5f_next_dist_client_67b41e5c._.js:5949
+[  235884ms] [LOG] [Fast Refresh] done in 536ms @ http://localhost:3000/_next/static/chunks/7fc5f_next_dist_client_67b41e5c._.js:5809
+[  255978ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[  256172ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  256950ms] [ERROR] Failed to load app: SyntaxError: The requested module 'lucide-react' does not provide an export named 'Github' @ about:srcdoc:144
+[  256950ms] [ERROR] Import map: {
+  "imports": {
+    "react": "https://esm.sh/react",
+    "react-dom": "https://esm.sh/react-dom@19",
+    "react-dom/client": "https://esm.sh/react-dom@19/client",
+    "react/jsx-runtime": "https://esm.sh/react@19/jsx-runtime",
+    "react/jsx-dev-runtime": "https://esm.sh/react@19/jsx-dev-runtime",
+    "lucide-react": "https://esm.sh/lucide-react",
+    "/App.jsx": "blob:http://localhost:3000/cdc2fb4d-a8d2-4ab6-9ad0-026916da1716",
+    "App.jsx": "blob:http://localhost:3000/cdc2fb4d-a8d2-4ab6-9ad0-026916da1716",
+    "@/App.jsx": "blob:http://localhost:3000/cdc2fb4d-a8d2-4ab6-9ad0-026916da1716",
+    "/App": "blob:http://localhost:3000/cdc2fb4d-a8d2-4ab6-9ad0-026916da1716",
+    "App": "blob:http://localhost:3000/cdc2fb4d-a8d2-4ab6-9ad0-026916da1716",
+    "@/App": "blob:http://localhost:3000/cdc2fb4d-a8d2-4ab6-9ad0-026916da1716"
+  }
+} @ about:srcdoc:145
+[  262312ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/7fc5f_next_dist_client_67b41e5c._.js:5949
+[  262360ms] [LOG] [Fast Refresh] done in 154ms @ http://localhost:3000/_next/static/chunks/7fc5f_next_dist_client_67b41e5c._.js:5809
+[  429744ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/7fc5f_next_dist_client_67b41e5c._.js:5949
+[  430005ms] [LOG] [Fast Refresh] done in 353ms @ http://localhost:3000/_next/static/chunks/7fc5f_next_dist_client_67b41e5c._.js:5809
+[  462890ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/7fc5f_next_dist_client_67b41e5c._.js:5949
+[  463031ms] [LOG] [Fast Refresh] done in 248ms @ http://localhost:3000/_next/static/chunks/7fc5f_next_dist_client_67b41e5c._.js:5809
+[  469142ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/7fc5f_next_dist_client_67b41e5c._.js:5949
+[  469283ms] [LOG] [Fast Refresh] done in 247ms @ http://localhost:3000/_next/static/chunks/7fc5f_next_dist_client_67b41e5c._.js:5809
+[  537739ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[  537822ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63

@@ -1,0 +1,151 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e15]:
+          - generic [ref=e52]:
+            - generic [ref=e55]: Create a user profile card with an avatar, name, bio, and social links (Twitter, GitHub, LinkedIn). Make it look modern and polished.
+            - img [ref=e58]
+          - generic [ref=e74]:
+            - img [ref=e77]
+            - generic [ref=e82]:
+              - generic [ref=e85]: str_replace_editor
+              - separator [ref=e86]
+              - generic [ref=e87]:
+                - paragraph [ref=e88]: "Done! I've created a modern user profile card with:"
+                - list [ref=e89]:
+                  - listitem [ref=e90]:
+                    - strong [ref=e91]: Avatar
+                    - text: "- Circular profile image with border and shadow"
+                  - listitem [ref=e92]:
+                    - strong [ref=e93]: Name & Title
+                    - text: "- Prominent display with color accent"
+                  - listitem [ref=e94]:
+                    - strong [ref=e95]: Bio
+                    - text: "- Descriptive text about the user"
+                  - listitem [ref=e96]:
+                    - strong [ref=e97]: Social Links
+                    - text: "- Twitter, GitHub, and LinkedIn icons with hover effects (color change and scale animation)"
+                  - listitem [ref=e98]:
+                    - strong [ref=e99]: CTA Button
+                    - text: "- \"View Profile\" button with gradient"
+                  - listitem [ref=e100]:
+                    - strong [ref=e101]: Design
+                    - text: "- Gradient header background, clean white card, dark background, smooth transitions and hover states"
+                - paragraph [ref=e102]: The card is fully responsive and uses Tailwind CSS for styling with lucide-react icons for the social links.
+          - generic [ref=e540]:
+            - generic [ref=e543]: Create a user profile card with avatar, name, bio, and social links for Twitter, GitHub, and LinkedIn.
+            - img [ref=e546]
+          - generic [ref=e549]:
+            - img [ref=e552]
+            - generic [ref=e558]:
+              - img [ref=e559]
+              - generic [ref=e561]: Generating...
+        - generic [ref=e23]:
+          - textbox "Describe the React component you want to create..." [disabled] [ref=e24]
+          - button [disabled] [ref=e25]:
+            - img [ref=e26]
+    - separator [ref=e29]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - tablist [ref=e34]:
+          - tab "Preview" [ref=e35]
+          - tab "Code" [selected] [ref=e36]
+        - generic [ref=e37]:
+          - button "Sign In" [ref=e38]
+          - button "Sign Up" [ref=e39]
+      - generic [ref=e104]:
+        - generic [ref=e112] [cursor=pointer]:
+          - img [ref=e113]
+          - generic [ref=e118]: App.jsx
+        - separator [ref=e119]
+        - code [ref=e124]:
+          - generic [ref=e125]:
+            - generic [ref=e127]:
+              - generic [ref=e130]: "1"
+              - generic [ref=e132]: "2"
+              - generic [ref=e135]: "3"
+              - generic [ref=e136]:
+                - generic [ref=e137] [cursor=pointer]: 
+                - generic [ref=e138]: "4"
+              - generic [ref=e139]:
+                - generic [ref=e140] [cursor=pointer]: 
+                - generic [ref=e141]: "5"
+              - generic [ref=e142]:
+                - generic [ref=e143] [cursor=pointer]: 
+                - generic [ref=e144]: "6"
+              - generic [ref=e148]:
+                - generic [ref=e149] [cursor=pointer]: 
+                - generic [ref=e150]: "7"
+              - generic [ref=e152]: "8"
+              - generic [ref=e153]:
+                - generic [ref=e154] [cursor=pointer]: 
+                - generic [ref=e155]: "9"
+              - generic [ref=e159]: "10"
+              - generic [ref=e161]: "11"
+              - generic [ref=e165]: "12"
+              - generic [ref=e167]: "13"
+              - generic [ref=e168]:
+                - generic [ref=e169] [cursor=pointer]: 
+                - generic [ref=e170]: "14"
+              - generic [ref=e172]: "15"
+              - generic [ref=e173]:
+                - generic [ref=e174] [cursor=pointer]: 
+                - generic [ref=e175]: "16"
+              - generic [ref=e177]:
+                - generic [ref=e178] [cursor=pointer]: 
+                - generic [ref=e179]: "17"
+              - generic [ref=e181]: "18"
+              - generic [ref=e188]: "19"
+              - generic [ref=e190]: "20"
+              - generic [ref=e195]: "21"
+              - generic [ref=e197]: "22"
+              - generic [ref=e199]: "23"
+              - generic [ref=e201]: "24"
+              - generic [ref=e203]: "25"
+            - generic [ref=e455]:
+              - generic [ref=e457]: import React from 'react';
+              - generic [ref=e459]: "import { Twitter, Github, Linkedin } from"
+              - generic [ref=e461]: "'lucide-react';"
+              - generic [ref=e464]: "export default function App() {"
+              - generic [ref=e466]: return (
+              - generic [ref=e468]: <div className="min-h-screen
+              - generic [ref=e470]: bg-gradient-to-br from-slate-900
+              - generic [ref=e472]: via-slate-800 to-slate-900 flex
+              - generic [ref=e474]: items-center justify-center p-4">
+              - generic [ref=e476]: <div className="w-full max-w-sm">
+              - generic [ref=e478]: "{/* Card */}"
+              - generic [ref=e480]: <div className="bg-white
+              - generic [ref=e482]: rounded-2xl shadow-2xl
+              - generic [ref=e484]: overflow-hidden">
+              - generic [ref=e486]: "{/* Header Background */}"
+              - generic [ref=e488]: <div className="h-32
+              - generic [ref=e490]: bg-gradient-to-r from-blue-500
+              - generic [ref=e492]: to-purple-600"></div>
+              - generic [ref=e495]: "{/* Content */}"
+              - generic [ref=e497]: <div className="px-6 pb-6">
+              - generic [ref=e499]: "{/* Avatar */}"
+              - generic [ref=e501]: <div className="flex
+              - generic [ref=e503]: justify-center -mt-16 mb-4">
+              - generic [ref=e505]: <img
+              - generic [ref=e507]: src="https://images.
+              - generic [ref=e509]: unsplash.com/
+              - generic [ref=e511]: photo-1472099645785-5658abf4
+              - generic [ref=e513]: ff4e?ixlib=rb-1.2.1&
+              - generic [ref=e515]: auto=format&fit=facearea&
+              - generic [ref=e517]: facepad=2&w=256&h=256&q=80"
+              - generic [ref=e519]: alt="Avatar"
+              - generic [ref=e521]: className="w-32 h-32
+              - generic [ref=e523]: rounded-full border-4
+              - generic [ref=e525]: border-white shadow-lg
+              - generic [ref=e527]: object-cover"
+              - generic [ref=e529]: />
+              - generic [ref=e531]: </div>
+              - generic [ref=e534]: "{/* Name */}"
+              - generic [ref=e536]: <h2 className="text-2xl
+            - textbox "Editor content" [ref=e538]
+  - alert [ref=e51]
+  - generic [ref=e539]:
+    - alert
+    - alert

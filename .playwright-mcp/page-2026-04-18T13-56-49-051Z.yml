@@ -1,0 +1,54 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e15]:
+          - generic [ref=e52]:
+            - generic [ref=e55]: Create a user profile card with an avatar, name, bio, and social links (Twitter, GitHub, LinkedIn). Make it look modern and polished.
+            - img [ref=e58]
+          - generic [ref=e74]:
+            - img [ref=e77]
+            - generic [ref=e82]:
+              - generic [ref=e85]: str_replace_editor
+              - separator [ref=e86]
+              - generic [ref=e87]:
+                - paragraph [ref=e88]: "Done! I've created a modern user profile card with:"
+                - list [ref=e89]:
+                  - listitem [ref=e90]:
+                    - strong [ref=e91]: Avatar
+                    - text: "- Circular profile image with border and shadow"
+                  - listitem [ref=e92]:
+                    - strong [ref=e93]: Name & Title
+                    - text: "- Prominent display with color accent"
+                  - listitem [ref=e94]:
+                    - strong [ref=e95]: Bio
+                    - text: "- Descriptive text about the user"
+                  - listitem [ref=e96]:
+                    - strong [ref=e97]: Social Links
+                    - text: "- Twitter, GitHub, and LinkedIn icons with hover effects (color change and scale animation)"
+                  - listitem [ref=e98]:
+                    - strong [ref=e99]: CTA Button
+                    - text: "- \"View Profile\" button with gradient"
+                  - listitem [ref=e100]:
+                    - strong [ref=e101]: Design
+                    - text: "- Gradient header background, clean white card, dark background, smooth transitions and hover states"
+                - paragraph [ref=e102]: The card is fully responsive and uses Tailwind CSS for styling with lucide-react icons for the social links.
+        - generic [ref=e23]:
+          - textbox "Describe the React component you want to create..." [ref=e24]
+          - button [disabled] [ref=e25]:
+            - img [ref=e26]
+    - separator [ref=e29]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - tablist [ref=e34]:
+          - tab "Preview" [selected] [ref=e35]
+          - tab "Code" [ref=e36]
+        - generic [ref=e37]:
+          - button "Sign In" [ref=e38]
+          - button "Sign Up" [ref=e39]
+      - iframe [ref=e103]:
+        - generic [ref=f2e3]:
+          - heading "Failed to load app" [level=2] [ref=f2e4]
+          - generic [ref=f2e5]: "SyntaxError: The requested module 'lucide-react' does not provide an export named 'Github'"
+  - alert [ref=e51]
