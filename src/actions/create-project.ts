@@ -15,7 +15,7 @@ export async function createProject(input: CreateProjectInput) {
   if (!session) {
     throw new Error("Unauthorized");
   }
-
+console.log("Creating project with input:", input);
   const project = await prisma.project.create({
     data: {
       name: input.name,
